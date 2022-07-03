@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from './Header';
+
 import './App.css';
 import './firebase/config';
-import './pages/Signup';
+
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import Signup from './pages/Signup';
+
+import Header from './Header';
+import Signup from './Signup';
 
 function App() {
   return (
